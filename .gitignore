@@ -1,0 +1,42 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+chest/          # <--- ignore your virtualenv folder named "chest"
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables / local secrets
+.env
+*.env
+
+# Model files (ignore specific and all .h5 if you prefer)
+pneumonia_detector_model.h5
+*.h5
+
+
